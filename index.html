@@ -105,7 +105,7 @@ const data = new FormData(form)
 
 const body = Object.fromEntries(data.entries())
 
-const response = await fetch("TU_WEBHOOK_N8N_AQUI",{
+const response = await fetch("https://analizamostunegocio.app.n8n.cloud/webhook-test/asistencia-clase-10min",{
 method:"POST",
 headers:{
 "Content-Type":"application/json"
